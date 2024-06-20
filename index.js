@@ -9,7 +9,7 @@ let wicon = document.getElementById("wicon")
 
 hel.addEventListener("click",()=>{
 const apiKe = "e5b3f49657b2ccff409c34647081d13b";
-
+let city = search.value
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKe}&units=metric`;
 
 fetch(apiUrl)
